@@ -1,8 +1,8 @@
-##These script will backup data from Bash to the local drive C: at 3 a.m. every day.
+##This Bash-script will backup data from Bash home folder to the local drive C:\ at 3 a.m. every day.
 
 #Here are the steps for creating the script in Bash on Ubuntu for Windows
 
-1.Create a file in your home directory in Bash with the "touch" command
+1.Create a file in your home directory in Bash with the "touch" command.
 2.Open and edit it with a text editor - preferably Vim :)
 ...
 3...See the script code with its comments..
@@ -15,7 +15,7 @@
 ##Cron is a daemon which executes scheduled commands in Bash.
 
 6.Edit the crontable with the command "sudo crontab -e". 
-7.You may have to choose an editor for cron first time you use it - choose Vim preferably
+7.You may have to choose an editor for cron first time you use it - choose Vim preferably.
 #This will open the crontable for the root user - all users have their own crontable
 #and their own cron daemon. This guide will apply for changes for the root user.
 
