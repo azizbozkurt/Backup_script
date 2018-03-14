@@ -36,5 +36,6 @@
 
 12.Edit the file and paste "C:\Windows\System32\bash.exe -c 'while [ true ]; do sudo /usr/sbin/cron -f; done'"
 13.Save and exit.
+14: Remove the password for the user, so the batch can run without needing the password.
 
 #You no longer have to do anything now, the script is fully-automated and will run at the time defined in crontab.
