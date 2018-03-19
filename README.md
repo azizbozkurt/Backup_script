@@ -2,7 +2,8 @@
 
 #### Here are the steps for creating the script in Bash on Ubuntu for Windows
 
-1.Create a file in your home directory in Bash with the "touch" command.
+1.Create a file in your home directory in Bash with the "touch" command. 
+
 2.Open and edit it with a text editor - preferably Vim :)
 ...
 3...See the script code with its comments..
