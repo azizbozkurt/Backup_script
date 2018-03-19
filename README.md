@@ -13,12 +13,11 @@
 ..
 
 4.Save the file and exit the text editor.
-
 #### You can now test if the script work well.
+
 
 #### To make the script run by automatically at a certain time, "cron can be used". 
 #### Cron is a daemon which executes scheduled commands in Bash.
-
 6.Edit the crontable with the command "sudo crontab -e". 
 
 7.You may have to choose an editor for cron first time you use it - choose Vim preferably.
@@ -36,14 +35,11 @@
 
 #### Although you can create a batch file which will start up with Windows to start the cron service.
 #### To do this:
-
 11.Create a batch-file e.g. "linux.bat" in the Startup folder in Windows.
 #### This folder can be accessed by typing shell:startup in Windows run.
-
 12.Edit the file and paste "C:\Windows\System32\bash.exe -c 'while [ true ]; do sudo /usr/sbin/cron -f; done'"
 
 13.Save and exit.
 
 14: Remove the password for the user, so the batch can run without needing the password.
-
 #### You no longer have to do anything now, the script is fully-automated and will run at the time defined in crontab.
