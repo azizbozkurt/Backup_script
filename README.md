@@ -16,7 +16,7 @@
 #### You can now test if the script work well.
 
 
-#### To make the script run by automatically at a certain time, "cron can be used". 
+#### To make the script run automatically at a certain time, "cron can be used". 
 #### Cron is a daemon which executes scheduled commands in Bash.
 6.Edit the crontable with the command "sudo crontab -e". 
 
